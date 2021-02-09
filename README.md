@@ -8,7 +8,7 @@ Coded in python. It is a finished class project that has some basic functions to
 ### Reversing Audio - 
 Inverts a sound, making it play backwards
 
--   backwards(sound)
+backwards(sound)
 Parameters
     ----------
     sound (dict): a dictionary that represents that sound
@@ -24,7 +24,7 @@ Returns
 
 mix(sound1, sound2, p)
     Parameters
-    ----------
+    
     * sound1 (dict): a dictionary that represents the sound
     
     * sound2 (dict): a second dictionary that represents another sound. Must have the same rate as sound1
@@ -33,5 +33,5 @@ mix(sound1, sound2, p)
     * p (float): the mixing parameter where 0 < p < 0
 
     Returns
-    -------
+
     A dictionary representing a sound that is the combination of the two sounds
